@@ -6,7 +6,7 @@
 /*   By: dkevlych <dkevlych@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/05 13:02:32 by dkevlych          #+#    #+#             */
-/*   Updated: 2026/03/26 19:35:37 by dkevlych         ###   ########.fr       */
+/*   Updated: 2026/03/31 19:06:05 by dkevlych         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,3 +28,17 @@ void	ft_is_negative(int n)
 		write(1, &positive_out, 1);
 	}
 }
+
+// #include <stdio.h>
+// int main(int argc, char *argv[])
+// {
+// 	int num1 = 5;
+// 	int num2 = 0;
+// 	int num3 = -3;
+
+// 	ft_is_negative(num1);
+// 	ft_is_negative(num2);
+// 	ft_is_negative(num3);
+	
+// 	return (0);
+// }

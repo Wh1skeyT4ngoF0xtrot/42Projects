@@ -6,7 +6,7 @@
 /*   By: dkevlych <dkevlych@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/05 14:00:34 by dkevlych          #+#    #+#             */
-/*   Updated: 2026/03/26 19:36:27 by dkevlych         ###   ########.fr       */
+/*   Updated: 2026/03/31 18:45:05 by dkevlych         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,4 +45,10 @@ void	print_comb(int a, int b, int c)
 void	ft_print_comb(void)
 {
 	print_comb(0, 0, 0);
+}
+
+int main(int argc, char *argv[])
+{
+	ft_print_comb();
+	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: dkevlych <dkevlych@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/04 20:27:21 by dkevlych          #+#    #+#             */
-/*   Updated: 2026/03/26 19:33:41 by dkevlych         ###   ########.fr       */
+/*   Updated: 2026/04/01 11:18:27 by dkevlych         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,10 @@ void	ft_print_reverse_alphabet(void)
 	}
 	write(1, &alphabet, 26);
 }
+
+// int main(int argc, char *argv[])
+// {
+// 	ft_print_reverse_alphabet();
+// 	write(1, "\n", 1);
+// 	return (0);
+// }
