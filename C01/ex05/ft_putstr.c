@@ -6,12 +6,11 @@
 /*   By: dkevlych <dkevlych@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/09 13:47:04 by dkevlych          #+#    #+#             */
-/*   Updated: 2026/03/26 19:42:48 by dkevlych         ###   ########.fr       */
+/*   Updated: 2026/04/01 12:39:04 by dkevlych         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-// #include <stdio.h>
 
 void	ft_putchar(char c)
 {
@@ -30,6 +29,7 @@ void	ft_putstr(char *str)
 	}
 }
 
+// #include <stdio.h>
 // int main(void)
 // {
 // 	char *string;

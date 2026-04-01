@@ -6,11 +6,9 @@
 /*   By: dkevlych <dkevlych@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/10 10:41:42 by dkevlych          #+#    #+#             */
-/*   Updated: 2026/03/26 19:44:07 by dkevlych         ###   ########.fr       */
+/*   Updated: 2026/04/01 13:46:42 by dkevlych         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-// #include <stdio.h>
 
 void	ft_sort_int_tab(int *tab, int size)
 {
@@ -36,6 +34,7 @@ void	ft_sort_int_tab(int *tab, int size)
 	}
 }
 
+// #include <stdio.h>
 // int main(void)
 // {
 // 	int my_array[] = {2, -3, -6, 9, 35, -16, 29, 0};

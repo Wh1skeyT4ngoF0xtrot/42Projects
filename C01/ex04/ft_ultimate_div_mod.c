@@ -6,11 +6,9 @@
 /*   By: dkevlych <dkevlych@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/09 10:58:04 by dkevlych          #+#    #+#             */
-/*   Updated: 2026/03/26 19:41:50 by dkevlych         ###   ########.fr       */
+/*   Updated: 2026/04/01 12:38:32 by dkevlych         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-// #include <stdio.h>
 
 void	ft_ultimate_div_mod(int *a, int *b)
 {
@@ -23,6 +21,7 @@ void	ft_ultimate_div_mod(int *a, int *b)
 	*b = remainder;
 }
 
+// #include <stdio.h>
 // int		main(void)
 // {
 // 	int result;

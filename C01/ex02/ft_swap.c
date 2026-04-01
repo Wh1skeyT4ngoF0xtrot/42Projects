@@ -6,11 +6,9 @@
 /*   By: dkevlych <dkevlych@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/08 16:11:04 by dkevlych          #+#    #+#             */
-/*   Updated: 2026/03/26 19:40:30 by dkevlych         ###   ########.fr       */
+/*   Updated: 2026/04/01 12:37:53 by dkevlych         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-//#include <stdio.h>
 
 void	ft_swap(int *a, int *b)
 {
@@ -21,6 +19,7 @@ void	ft_swap(int *a, int *b)
 	*b = temporary;
 }
 
+//#include <stdio.h>
 // int		main(void)
 // {
 // 	int a;

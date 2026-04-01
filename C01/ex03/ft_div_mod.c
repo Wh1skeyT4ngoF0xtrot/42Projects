@@ -6,11 +6,9 @@
 /*   By: dkevlych <dkevlych@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/09 10:19:17 by dkevlych          #+#    #+#             */
-/*   Updated: 2026/03/26 19:41:30 by dkevlych         ###   ########.fr       */
+/*   Updated: 2026/04/01 12:38:05 by dkevlych         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-// #include <stdio.h>
 
 void	ft_div_mod(int a, int b, int *div, int *mod)
 {
@@ -18,6 +16,7 @@ void	ft_div_mod(int a, int b, int *div, int *mod)
 	*mod = a % b;
 }
 
+// #include <stdio.h>
 // int main(void)
 // {
 // 	int a;
