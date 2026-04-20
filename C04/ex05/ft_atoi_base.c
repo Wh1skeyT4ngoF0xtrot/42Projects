@@ -6,13 +6,13 @@
 /*   By: dkevlych <dkevlych@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/06 14:17:11 by dkevlych          #+#    #+#             */
-/*   Updated: 2026/04/09 14:05:01 by dkevlych         ###   ########.fr       */
+/*   Updated: 2026/04/18 17:43:26 by dkevlych         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 ///////////////////////// UNFINISHED /////////////////////////////
 
-int analyse_base(char *base)
+int get_base_size(char *base)
 {
 	int base_size = 0;
 	int i = 0;
@@ -21,6 +21,16 @@ int analyse_base(char *base)
 	{
 		base_size++;
 	}
+	return (base_size);
+}
+
+int analyse_base(char *base)
+{
+	int base_size;
+	int i;
+
+	i = 0;
+	base_size = get_base_size(base);
 	while (base[i] != '\0')
 	{
 		int ii = 0;
